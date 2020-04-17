@@ -40,7 +40,7 @@ if hash_genre[key] # we set an "if" statement by saying "if hash_genre which has
   hash_genre[key] += 1 #we add the value or increment the value by 1.
 else
   hash_genre[key] = 1
-  binding.pry
+  #binding.pry
 
 end
 end
