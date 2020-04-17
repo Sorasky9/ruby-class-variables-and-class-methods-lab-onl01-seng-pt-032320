@@ -33,12 +33,12 @@ def self.genres
 end
 
 def self.genre_count
-  hash_genre = {}
-  @@genres.each do |key|
+  hash_genre = {} #Here we set an empty hash
+  @@genres.each do |key| #we iterate over the @@genre class
     #binding.pry
 
-if hash_genre[key]
-  hash_genre[key] += 1
+if hash_genre[key] # we set an "if" statement by saying "if hash_genre which has the key values from the @@ genres class is the default hash value
+  hash_genre[key] += 1 #we add the value or increment the value by 1.
 else
   hash_genre[key] = 1
 
